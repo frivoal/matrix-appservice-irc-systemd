@@ -8,7 +8,7 @@ User=matrix-synapse
 # the passkey.pem and data folder are written here by the bridge
 WorkingDirectory=/var/matrix-appservice-irc
 
-ExecStart=/usr/bin/matrix-appservice-irc -f /etc/matrix-appservice-irc/registration.yaml -c /etc/matrix-appservice-irc/config.yaml -p 9999
+ExecStart=/opt/matrix-appservice-irc -f /etc/matrix-appservice-irc/registration.yaml -c /etc/matrix-appservice-irc/config.yaml -p 9999
 Restart=always
 RestartSec=3
 
