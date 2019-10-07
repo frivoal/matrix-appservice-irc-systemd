@@ -1,6 +1,6 @@
 Get a copy.
 
-`curl -O https://matrix-appservice-irc.service | sudo tee /lib/systemd/system/matrix-appservice-irc.service > /dev/null`
+`curl -O https://frivoal.github.io/matrix-appservice-irc-systemd/matrix-appservice-irc.service | sudo tee /lib/systemd/system/matrix-appservice-irc.service > /dev/null`
 
 Then modify it to match the location of your config and registration files.
 
