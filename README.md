@@ -1,6 +1,6 @@
 Get a copy.
 
-`curl -O https://git.io/vDyUm | sudo tee /lib/systemd/system/matrix-appservice-irc.service > /dev/null`
+`curl -O https://matrix-appservice-irc.service | sudo tee /lib/systemd/system/matrix-appservice-irc.service > /dev/null`
 
 Then modify it to match the location of your config and registration files.
 
